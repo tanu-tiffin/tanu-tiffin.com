@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Tiffin Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Place Your Order</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="order">
+        <h2>Fill out the form to place an order</h2>
+        <form action="#" method="POST">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="tiffin">Select Tiffin:</label><br>
+            <select id="tiffin" name="tiffin">
+                <option value="veg">Veg Tiffin</option>
+                <option value="nonveg">Non-Veg Tiffin</option>
+                <option value="special">Special Tiffin</option>
+            </select><br><br>
+
+            <label for="address">Delivery Address:</label><br>
+            <textarea id="address" name="address"></textarea><br><br>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contact us at: info@tiffinservice.com</p>
+    </footer>
+</body>
+</html>
